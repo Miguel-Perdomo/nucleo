@@ -1,0 +1,155 @@
+codigo,sinonimos
+A09X,diarrea|gastroenteritis|virus estomacal|EDA
+A16.2,tuberculosis|TBC|TB
+A90X,dengue
+A91X,dengue grave|dengue hemorrágico
+B24X,VIH|sida
+B34.9,virosis|virus
+B35.1,hongos en las uñas|onicomicosis
+B35.3,pie de atleta|hongos en los pies
+B37.3,hongos vaginales|candidiasis vaginal
+B86X,sarna
+C16.9,cáncer de estómago
+C18.9,cáncer de colon
+C34.9,cáncer de pulmón
+C50.9,cáncer de seno|cáncer de mama
+C53.9,cáncer de cuello uterino
+C61X,cáncer de próstata
+D25.9,miomas|fibromas uterinos
+D50.9,anemia ferropénica|falta de hierro
+D64.9,anemia
+E03.9,tiroides lenta|hipotiroidismo
+E04.1,nódulo en la tiroides
+E05.9,hipertiroidismo|tiroides acelerada
+E10.9,diabetes tipo 1|DM1
+E11.9,diabetes tipo 2|DM2|azúcar alta
+E14.9,diabetes|azúcar alta|DM
+E28.2,ovario poliquístico|SOP
+E55.9,vitamina D baja
+E66.9,obesidad|sobrepeso
+E78.0,colesterol alto
+E78.5,colesterol alto|triglicéridos altos|dislipidemia
+E87.6,potasio bajo
+F10.2,alcoholismo|dependencia al alcohol
+F20.9,esquizofrenia
+F31.9,bipolaridad|trastorno bipolar
+F32.9,depresión
+F41.0,ataques de pánico
+F41.1,ansiedad generalizada|TAG
+F41.9,ansiedad|nervios
+F51.0,insomnio|no poder dormir
+F84.0,autismo|TEA
+F90.0,TDAH|déficit de atención|hiperactividad
+G20X,parkinson
+G30.9,alzheimer|demencia
+G35X,esclerosis múltiple|EM
+G40.9,convulsiones|epilepsia
+G43.9,migraña|jaqueca
+G44.2,dolor de cabeza tensional
+G47.3,apnea|roncar|SAHOS
+G56.0,túnel carpiano|manos dormidas
+H10.9,ojo rojo|conjuntivitis
+H25.9,catarata
+H40.9,presión en el ojo|glaucoma
+H52.1,miopía|no ver de lejos
+H52.4,vista cansada|no ver de cerca
+H61.2,tapón de cera|cera en el oído
+H66.9,infección de oído|dolor de oído
+H81.1,vértigo|VPPB
+I10X,presión alta|tensión alta|hipertensión arterial|HTA
+I11.9,corazón hipertenso
+I20.9,angina|dolor de pecho
+I21.9,infarto|ataque al corazón|IAM
+I25.1,enfermedad coronaria|arterias tapadas
+I48X,arritmia|fibrilación auricular|FA
+I50.0,falla cardíaca|ICC
+I50.9,falla cardíaca|corazón débil|IC
+I63.9,ACV|derrame cerebral|trombosis cerebral|ECV
+I64X,ACV|derrame cerebral|ECV
+I83.9,várices
+J00X,gripa|resfriado|catarro
+J01.9,sinusitis
+J02.9,dolor de garganta|faringitis
+J03.9,amigdalitis|anginas
+J06.9,infección respiratoria|IRA|gripa
+J11.1,influenza|gripe
+J18.9,neumonía|pulmonía|NAC
+J20.9,bronquitis
+J21.9,bronquiolitis
+J30.4,alergia nasal|rinitis
+J44.9,EPOC|enfisema|bronquitis crónica
+J45.9,asma
+K02.9,caries
+K21.0,reflujo|agrieras|ERGE
+K21.9,reflujo|agrieras|acidez|ERGE
+K25.9,úlcera de estómago
+K29.7,gastritis
+K30X,indigestión|llenura
+K37X,apendicitis
+K40.9,hernia inguinal
+K42.9,hernia umbilical|hernia del ombligo
+K58.9,colon irritable|SII
+K59.0,estreñimiento
+K76.0,hígado graso
+K80.2,cálculos en la vesícula|piedras en la vesícula
+K81.0,inflamación de la vesícula
+L03.9,infección de la piel
+L20.9,eccema|dermatitis atópica
+L23.9,alergia en la piel|dermatitis de contacto
+L40.0,psoriasis
+L50.9,ronchas|urticaria
+L60.0,uña encarnada
+L70.0,acné|barros|espinillas
+M06.9,artritis reumatoide|AR
+M10.9,gota|ácido úrico alto
+M17.9,artrosis de rodilla
+M19.9,artrosis|desgaste de articulaciones
+M32.9,lupus|LES
+M51.1,hernia discal|ciática
+M54.2,dolor de cuello
+M54.5,dolor lumbar|dolor de espalda|lumbalgia
+M75.1,manguito rotador|dolor de hombro
+M77.1,codo de tenista
+M79.7,fibromialgia
+M81.9,osteoporosis|huesos débiles
+N18.9,insuficiencia renal crónica|ERC|IRC
+N20.0,cálculos renales|piedras en el riñón
+N39.0,infección urinaria|IVU|ITU
+N40X,próstata crecida|HBP
+N63X,bulto en el seno|masa en la mama
+N76.0,vaginitis|flujo vaginal
+N80.9,endometriosis
+N94.6,cólicos menstruales
+N95.1,menopausia
+N97.9,infertilidad
+O03.9,aborto espontáneo|pérdida del embarazo
+O13X,hipertensión del embarazo
+O14.9,preeclampsia
+O21.0,vómito del embarazo
+O24.4,diabetes gestacional
+O80.0,parto normal
+P59.9,bebé amarillo|ictericia del recién nacido
+Q21.1,CIA|soplo
+Q90.9,síndrome de down
+R05X,tos
+R06.0,falta de aire|ahogo|dificultad para respirar
+R07.4,dolor de pecho
+R10.4,dolor de estómago|dolor abdominal|dolor de barriga
+R11X,vómito|náuseas|ganas de vomitar
+R42X,mareo
+R50.9,fiebre|calentura
+R51X,dolor de cabeza
+R53X,cansancio|fatiga
+S06.0,conmoción cerebral|golpe en la cabeza
+S52.5,fractura de muñeca
+S93.4,esguince de tobillo|torcedura
+T78.4,alergia
+U07.1,covid|coronavirus
+W19X,caída
+Z00.0,chequeo|control médico
+Z01.4,citología|control ginecológico
+Z30.0,planificación familiar|anticonceptivos
+Z34.9,control prenatal
+Z71.3,nutrición|dieta
+Z72.0,tabaquismo|fumar
+Z76.0,fórmula médica|renovar medicamentos

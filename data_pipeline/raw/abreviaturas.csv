@@ -1,0 +1,74 @@
+sigla,significado,explicacion,codigo
+HTA,Hipertensión arterial,"Presión arterial alta de forma persistente.",I10X
+DM,Diabetes mellitus,"Nivel de azúcar (glucosa) en la sangre más alto de lo normal de forma persistente.",E14.9
+DM1,Diabetes mellitus tipo 1,"Diabetes en la que el cuerpo casi no produce insulina; requiere insulina como tratamiento.",E10.9
+DM2,Diabetes mellitus tipo 2,"Diabetes en la que el cuerpo no usa bien la insulina; es la forma más común.",E11.9
+EPOC,Enfermedad pulmonar obstructiva crónica,"Enfermedad de los pulmones que dificulta sacar el aire, de forma duradera.",J44.9
+IVU,Infección de vías urinarias,"Infección en alguna parte del sistema urinario (vejiga, uretra o riñones).",N39.0
+ITU,Infección del tracto urinario,"Otra forma de decir infección urinaria.",N39.0
+ERC,Enfermedad renal crónica,"Los riñones han perdido parte de su capacidad de filtrar la sangre de forma duradera.",N18.9
+IRC,Insuficiencia renal crónica,"Nombre antiguo de la enfermedad renal crónica.",N18.9
+IRA,Infección respiratoria aguda,"Infección reciente de nariz, garganta o pulmones.",J06.9
+IRA,Insuficiencia renal aguda,"Los riñones dejan de funcionar bien de forma repentina.",
+ICC,Insuficiencia cardíaca congestiva,"El corazón no bombea con suficiente fuerza y se acumula líquido.",I50.0
+IC,Insuficiencia cardíaca,"El corazón no bombea la sangre con la fuerza necesaria.",I50.9
+IAM,Infarto agudo de miocardio,"Parte del músculo del corazón se daña por falta de sangre (ataque al corazón).",I21.9
+ACV,Accidente cerebrovascular,"Daño en el cerebro porque se tapó o se rompió un vaso sanguíneo (derrame o trombosis).",I64X
+ECV,Enfermedad cerebrovascular,"Otra forma de referirse a un accidente cerebrovascular o a enfermedad de los vasos del cerebro.",I64X
+TVP,Trombosis venosa profunda,"Coágulo de sangre en una vena profunda, casi siempre de las piernas.",
+TEP,Tromboembolismo pulmonar,"Un coágulo viaja y tapa una arteria de los pulmones.",
+FA,Fibrilación auricular,"Ritmo del corazón irregular que se origina en las aurículas.",I48X
+ERGE,Enfermedad por reflujo gastroesofágico,"El contenido ácido del estómago se devuelve hacia el esófago con frecuencia.",K21.9
+SII,Síndrome de intestino irritable,"Molestias intestinales crónicas (dolor, gases, cambios en la deposición) sin daño visible.",K58.9
+EDA,Enfermedad diarreica aguda,"Diarrea de inicio reciente, generalmente por una infección.",A09X
+HBP,Hiperplasia benigna de próstata,"Crecimiento no canceroso de la próstata, común con la edad.",N40X
+TBC,Tuberculosis,"Infección por la bacteria de la tuberculosis, casi siempre en los pulmones.",A16.2
+VIH,Virus de la inmunodeficiencia humana,"Virus que debilita las defensas del cuerpo.",B24X
+TDAH,Trastorno por déficit de atención e hiperactividad,"Dificultad persistente para mantener la atención y/o controlar la actividad o los impulsos.",F90.0
+TAG,Trastorno de ansiedad generalizada,"Preocupación excesiva y difícil de controlar durante mucho tiempo.",F41.1
+TEA,Trastorno del espectro autista,"Condición del neurodesarrollo que afecta la comunicación y la interacción social.",F84.0
+SOP,Síndrome de ovario poliquístico,"Alteración hormonal que puede causar ciclos irregulares y quistes pequeños en los ovarios.",E28.2
+AR,Artritis reumatoide,"Enfermedad autoinmune que inflama las articulaciones.",M06.9
+LES,Lupus eritematoso sistémico,"Enfermedad autoinmune que puede afectar piel, articulaciones, riñones y otros órganos.",M32.9
+DLP,Dislipidemia,"Niveles alterados de grasas en la sangre (colesterol o triglicéridos).",E78.5
+SAHOS,Síndrome de apnea-hipopnea obstructiva del sueño,"La respiración se detiene o disminuye repetidamente mientras se duerme.",G47.3
+NAC,Neumonía adquirida en la comunidad,"Infección de los pulmones adquirida fuera del hospital.",J18.9
+VPPB,Vértigo posicional paroxístico benigno,"Vértigo breve que aparece al mover la cabeza; no es grave.",H81.1
+Dx,Diagnóstico,"La enfermedad o condición que el médico identificó.",
+Tx,Tratamiento,"Lo que se indica para manejar la condición.",
+Rx,Radiografía / receta,"Según el contexto: una radiografía o una fórmula médica.",
+Sx,Síntomas / síndrome,"Según el contexto: síntomas o síndrome.",
+Fx,Fractura,"Ruptura de un hueso.",
+Qx,Cirugía (quirúrgico),"Relacionado con una operación.",
+HC,Historia clínica,"El registro de tu atención médica.",
+CIE-10,Clasificación Internacional de Enfermedades (10.ª revisión),"Sistema de códigos de la OMS con el que se registran los diagnósticos.",
+TA,Tensión arterial,"La presión de la sangre en las arterias; se escribe como dos números (ej. 120/80).",
+PA,Presión arterial,"Lo mismo que tensión arterial.",
+FC,Frecuencia cardíaca,"Latidos del corazón por minuto.",
+FR,Frecuencia respiratoria,"Respiraciones por minuto.",
+SatO2,Saturación de oxígeno,"Porcentaje de oxígeno que transporta la sangre.",
+IMC,Índice de masa corporal,"Peso dividido por la estatura al cuadrado; se usa para estimar sobrepeso.",
+HbA1c,Hemoglobina glicosilada,"Examen que refleja el promedio de azúcar en la sangre de los últimos 2 a 3 meses.",
+TSH,Hormona estimulante de la tiroides,"Examen de sangre que evalúa cómo funciona la tiroides.",
+LDL,Colesterol LDL,"Colesterol llamado “malo”; en exceso se deposita en las arterias.",
+HDL,Colesterol HDL,"Colesterol llamado “bueno”.",
+TGC,Triglicéridos,"Tipo de grasa en la sangre.",
+Hb,Hemoglobina,"Proteína de los glóbulos rojos que transporta oxígeno; si está baja indica anemia.",
+PCR,Proteína C reactiva,"Examen de sangre que sube cuando hay inflamación.",
+PCR,Reacción en cadena de la polimerasa,"Prueba de laboratorio que detecta material genético (por ejemplo, de un virus).",
+ECG,Electrocardiograma,"Registro de la actividad eléctrica del corazón.",
+EKG,Electrocardiograma,"Registro de la actividad eléctrica del corazón.",
+TAC,Tomografía axial computarizada,"Imágenes del interior del cuerpo obtenidas con rayos X desde muchos ángulos.",
+RMN,Resonancia magnética nuclear,"Imágenes del interior del cuerpo obtenidas con campos magnéticos (sin radiación ionizante).",
+AINE,Antiinflamatorio no esteroideo,"Medicamentos como ibuprofeno o naproxeno.",
+VO,Vía oral,"Medicamento que se toma por la boca.",
+PRN,Por razón necesaria,"Tomar solo si se necesita.",
+SOS,Si es necesario,"Tomar solo si se necesita.",
+NVO,Nada vía oral,"No comer ni beber nada (por ejemplo, antes de una cirugía).",
+UCI,Unidad de cuidados intensivos,"Área del hospital para pacientes que requieren vigilancia continua.",
+FUM,Fecha de última menstruación,"Primer día de la última regla; se usa para calcular el embarazo.",
+EG,Edad gestacional,"Semanas de embarazo.",
+RPM,Ruptura prematura de membranas,"Se rompe la fuente antes de iniciar el trabajo de parto.",
+CA,Cáncer / carcinoma,"Según el contexto: un tumor maligno. Ojo: “Ca” también puede significar calcio.",
+EPS,Entidad promotora de salud,"Tu aseguradora de salud en Colombia.",
+IPS,Institución prestadora de servicios de salud,"La clínica, hospital o centro donde te atienden.",

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+data_pipeline/raw/*.xlsx
+data_pipeline/raw/*oficial*

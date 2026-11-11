@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Núcleo · Entiende tu diagnóstico</title>
+  <meta name="description" content="Traduce los códigos CIE-10 y las siglas de tu historia clínica a palabras sencillas. Gratis, libre y privado: tu búsqueda no sale de tu navegador." />
+  <meta name="theme-color" content="#0b4f94" />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <div class="notice" role="note">
+    <div class="wrap">
+      <strong>Herramienta informativa.</strong> No reemplaza la consulta médica. Ante una emergencia llama al <strong>123</strong>.
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="wrap topbar-in">
+      <a href="#/" class="brand" aria-label="Núcleo, inicio">
+        <svg class="brand-logo" viewBox="0 0 64 64" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="2.6">
+            <ellipse cx="32" cy="32" rx="28" ry="10.5" />
+            <ellipse cx="32" cy="32" rx="28" ry="10.5" transform="rotate(60 32 32)" />
+            <ellipse cx="32" cy="32" rx="28" ry="10.5" transform="rotate(120 32 32)" />
+          </g>
+          <circle cx="32" cy="32" r="9" class="brand-nucleus" />
+          <path d="M32 27v10M27 32h10" stroke="#fff" stroke-width="2.8" stroke-linecap="round" />
+          <circle cx="60" cy="32" r="3" class="brand-electron" />
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Núcleo</span>
+          <span class="brand-tag">Entiende tu diagnóstico</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Secciones">
+        <a href="#/">Buscar</a>
+        <a href="#/texto">Analizar texto</a>
+        <a href="#capitulos">Capítulos</a>
+        <a href="#como">Cómo funciona</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <svg class="spectrum" viewBox="0 0 1200 220" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="specFill" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="currentColor" stop-opacity=".22" />
+            <stop offset="1" stop-color="currentColor" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <path d="M0,25.4 L4,25.3 L8,27.6 L12,28.9 L16,31.0 L20,30.9 L24,29.9 L28,32.0 L32,32.1 L36,34.4 L40,35.2 L44,36.6 L48,40.5 L52,37.5 L56,39.0 L60,40.0 L64,44.5 L68,45.5 L72,45.0 L76,45.3 L80,45.0 L84,46.4 L88,46.4 L92,49.1 L96,48.5 L100,49.2 L104,51.7 L108,48.8 L112,51.5 L116,51.3 L120,55.0 L124,56.0 L128,56.1 L132,56.6 L136,56.2 L140,57.6 L144,59.5 L148,61.2 L152,61.3 L156,59.4 L160,63.6 L164,62.9 L168,63.6 L172,67.9 L176,66.7 L180,66.2 L184,73.1 L188,72.1 L192,73.6 L196,76.7 L200,76.4 L204,79.1 L208,83.0 L212,80.8 L216,82.3 L220,82.8 L224,82.4 L228,82.9 L232,79.0 L236,72.2 L240,55.4 L244,42.3 L248,32.2 L252,34.2 L256,44.8 L260,60.3 L264,72.4 L268,88.0 L272,92.6 L276,92.5 L280,91.8 L284,93.9 L288,98.3 L292,99.8 L296,95.7 L300,97.9 L304,99.0 L308,96.1 L312,96.3 L316,98.3 L320,98.6 L324,98.7 L328,97.3 L332,99.3 L336,99.9 L340,100.3 L344,104.2 L348,100.1 L352,101.1 L356,102.3 L360,106.9 L364,105.4 L368,103.8 L372,108.8 L376,107.2 L380,106.5 L384,111.7 L388,108.7 L392,112.5 L396,115.9 L400,117.8 L404,120.0 L408,123.7 L412,124.8 L416,130.2 L420,132.1 L424,131.7 L428,135.0 L432,137.8 L436,135.9 L440,136.0 L444,139.8 L448,141.9 L452,140.5 L456,140.9 L460,141.6 L464,139.3 L468,143.5 L472,140.2 L476,144.5 L480,143.9 L484,141.6 L488,139.9 L492,137.7 L496,132.5 L500,121.3 L504,103.0 L508,78.2 L512,54.0 L516,33.6 L520,26.1 L524,35.5 L528,55.3 L532,82.5 L536,105.7 L540,128.1 L544,142.2 L548,149.4 L552,152.7 L556,153.1 L560,156.1 L564,155.7 L568,153.8 L572,161.3 L576,159.3 L580,157.4 L584,157.5 L588,158.0 L592,159.3 L596,157.8 L600,158.6 L604,160.1 L608,155.5 L612,159.1 L616,160.7 L620,160.2 L624,160.5 L628,160.5 L632,164.9 L636,161.5 L640,159.3 L644,163.0 L648,161.4 L652,160.0 L656,160.3 L660,159.3 L664,163.9 L668,160.0 L672,156.3 L676,148.6 L680,139.8 L684,138.0 L688,127.6 L692,133.0 L696,136.6 L700,150.5 L704,158.5 L708,165.5 L712,173.6 L716,176.9 L720,178.3 L724,181.0 L728,182.5 L732,180.8 L736,182.3 L740,185.0 L744,180.5 L748,187.1 L752,184.1 L756,186.2 L760,185.8 L764,185.1 L768,186.0 L772,185.5 L776,189.1 L780,189.2 L784,186.0 L788,188.6 L792,188.9 L796,189.7 L800,185.5 L804,186.5 L808,185.5 L812,189.6 L816,188.4 L820,190.5 L824,187.8 L828,186.9 L832,191.4 L836,188.0 L840,189.5 L844,192.0 L848,195.5 L852,190.6 L856,193.5 L860,194.6 L864,193.0 L868,192.4 L872,189.0 L876,189.5 L880,179.9 L884,169.9 L888,156.9 L892,144.3 L896,129.9 L900,115.2 L904,110.9 L908,112.9 L912,120.2 L916,137.1 L920,156.1 L924,167.6 L928,181.5 L932,185.2 L936,191.0 L940,195.2 L944,195.6 L948,194.9 L952,196.4 L956,194.6 L960,196.9 L964,195.2 L968,194.6 L972,194.4 L976,198.1 L980,195.7 L984,200.2 L988,199.0 L992,200.4 L996,195.6 L1000,199.4 L1004,197.5 L1008,197.8 L1012,197.6 L1016,198.6 L1020,197.3 L1024,194.9 L1028,197.7 L1032,197.0 L1036,196.3 L1040,198.2 L1044,199.7 L1048,198.2 L1052,194.7 L1056,197.4 L1060,192.9 L1064,186.3 L1068,181.8 L1072,178.3 L1076,173.4 L1080,173.1 L1084,176.7 L1088,181.0 L1092,184.4 L1096,186.8 L1100,193.3 L1104,196.7 L1108,198.3 L1112,200.5 L1116,198.7 L1120,200.6 L1124,198.2 L1128,202.7 L1132,198.4 L1136,200.0 L1140,202.1 L1144,197.9 L1148,199.5 L1152,202.7 L1156,200.5 L1160,198.7 L1164,199.9 L1168,198.0 L1172,198.1 L1176,198.2 L1180,198.8 L1184,197.2 L1188,198.3 L1192,198.7 L1196,202.8 L1200,198.1 L1200,220 L0,220 Z" fill="url(#specFill)" />
+        <path d="M0,25.4 L4,25.3 L8,27.6 L12,28.9 L16,31.0 L20,30.9 L24,29.9 L28,32.0 L32,32.1 L36,34.4 L40,35.2 L44,36.6 L48,40.5 L52,37.5 L56,39.0 L60,40.0 L64,44.5 L68,45.5 L72,45.0 L76,45.3 L80,45.0 L84,46.4 L88,46.4 L92,49.1 L96,48.5 L100,49.2 L104,51.7 L108,48.8 L112,51.5 L116,51.3 L120,55.0 L124,56.0 L128,56.1 L132,56.6 L136,56.2 L140,57.6 L144,59.5 L148,61.2 L152,61.3 L156,59.4 L160,63.6 L164,62.9 L168,63.6 L172,67.9 L176,66.7 L180,66.2 L184,73.1 L188,72.1 L192,73.6 L196,76.7 L200,76.4 L204,79.1 L208,83.0 L212,80.8 L216,82.3 L220,82.8 L224,82.4 L228,82.9 L232,79.0 L236,72.2 L240,55.4 L244,42.3 L248,32.2 L252,34.2 L256,44.8 L260,60.3 L264,72.4 L268,88.0 L272,92.6 L276,92.5 L280,91.8 L284,93.9 L288,98.3 L292,99.8 L296,95.7 L300,97.9 L304,99.0 L308,96.1 L312,96.3 L316,98.3 L320,98.6 L324,98.7 L328,97.3 L332,99.3 L336,99.9 L340,100.3 L344,104.2 L348,100.1 L352,101.1 L356,102.3 L360,106.9 L364,105.4 L368,103.8 L372,108.8 L376,107.2 L380,106.5 L384,111.7 L388,108.7 L392,112.5 L396,115.9 L400,117.8 L404,120.0 L408,123.7 L412,124.8 L416,130.2 L420,132.1 L424,131.7 L428,135.0 L432,137.8 L436,135.9 L440,136.0 L444,139.8 L448,141.9 L452,140.5 L456,140.9 L460,141.6 L464,139.3 L468,143.5 L472,140.2 L476,144.5 L480,143.9 L484,141.6 L488,139.9 L492,137.7 L496,132.5 L500,121.3 L504,103.0 L508,78.2 L512,54.0 L516,33.6 L520,26.1 L524,35.5 L528,55.3 L532,82.5 L536,105.7 L540,128.1 L544,142.2 L548,149.4 L552,152.7 L556,153.1 L560,156.1 L564,155.7 L568,153.8 L572,161.3 L576,159.3 L580,157.4 L584,157.5 L588,158.0 L592,159.3 L596,157.8 L600,158.6 L604,160.1 L608,155.5 L612,159.1 L616,160.7 L620,160.2 L624,160.5 L628,160.5 L632,164.9 L636,161.5 L640,159.3 L644,163.0 L648,161.4 L652,160.0 L656,160.3 L660,159.3 L664,163.9 L668,160.0 L672,156.3 L676,148.6 L680,139.8 L684,138.0 L688,127.6 L692,133.0 L696,136.6 L700,150.5 L704,158.5 L708,165.5 L712,173.6 L716,176.9 L720,178.3 L724,181.0 L728,182.5 L732,180.8 L736,182.3 L740,185.0 L744,180.5 L748,187.1 L752,184.1 L756,186.2 L760,185.8 L764,185.1 L768,186.0 L772,185.5 L776,189.1 L780,189.2 L784,186.0 L788,188.6 L792,188.9 L796,189.7 L800,185.5 L804,186.5 L808,185.5 L812,189.6 L816,188.4 L820,190.5 L824,187.8 L828,186.9 L832,191.4 L836,188.0 L840,189.5 L844,192.0 L848,195.5 L852,190.6 L856,193.5 L860,194.6 L864,193.0 L868,192.4 L872,189.0 L876,189.5 L880,179.9 L884,169.9 L888,156.9 L892,144.3 L896,129.9 L900,115.2 L904,110.9 L908,112.9 L912,120.2 L916,137.1 L920,156.1 L924,167.6 L928,181.5 L932,185.2 L936,191.0 L940,195.2 L944,195.6 L948,194.9 L952,196.4 L956,194.6 L960,196.9 L964,195.2 L968,194.6 L972,194.4 L976,198.1 L980,195.7 L984,200.2 L988,199.0 L992,200.4 L996,195.6 L1000,199.4 L1004,197.5 L1008,197.8 L1012,197.6 L1016,198.6 L1020,197.3 L1024,194.9 L1028,197.7 L1032,197.0 L1036,196.3 L1040,198.2 L1044,199.7 L1048,198.2 L1052,194.7 L1056,197.4 L1060,192.9 L1064,186.3 L1068,181.8 L1072,178.3 L1076,173.4 L1080,173.1 L1084,176.7 L1088,181.0 L1092,184.4 L1096,186.8 L1100,193.3 L1104,196.7 L1108,198.3 L1112,200.5 L1116,198.7 L1120,200.6 L1124,198.2 L1128,202.7 L1132,198.4 L1136,200.0 L1140,202.1 L1144,197.9 L1148,199.5 L1152,202.7 L1156,200.5 L1160,198.7 L1164,199.9 L1168,198.0 L1172,198.1 L1176,198.2 L1180,198.8 L1184,197.2 L1188,198.3 L1192,198.7 L1196,202.8 L1200,198.1" fill="none" stroke="currentColor" stroke-width="1.6" vector-effect="non-scaling-stroke" />
+      </svg>
+      <div class="wrap hero-in">
+        <p class="eyebrow"><span class="dot"></span> CIE-10 · Colombia · en palabras sencillas</p>
+        <h1>¿Qué significa el diagnóstico de tu <span class="hl">historia clínica</span>?</h1>
+        <p class="lead">Escribe el código (como <code>I10X</code> o <code>J45.9</code>), el nombre de la enfermedad o una sigla (como <code>HTA</code>). Te lo explicamos con información confiable de MedlinePlus.</p>
+
+        <div class="tabs" role="tablist" aria-label="Modo">
+          <button role="tab" id="tab-buscar" aria-controls="panel-buscar" aria-selected="true">Buscar</button>
+          <button role="tab" id="tab-texto" aria-controls="panel-texto" aria-selected="false">Pegar texto<span class="hide-sm"> de la historia</span></button>
+        </div>
+
+        <div class="panel" id="panel-buscar" role="tabpanel" aria-labelledby="tab-buscar">
+          <form class="search" role="search" onsubmit="return false">
+            <svg class="search-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="m20 20-3.6-3.6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <label class="sr" for="q">Código, enfermedad o sigla</label>
+            <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Ej.: I10X, asma, dolor lumbar, HTA…" />
+            <kbd class="search-kbd" aria-hidden="true">/</kbd>
+          </form>
+          <div class="examples" aria-label="Ejemplos">
+            <span>Prueba:</span>
+            <button class="chip" data-q="I10X">I10X</button>
+            <button class="chip" data-q="J45.9">J45.9</button>
+            <button class="chip" data-q="DM2">DM2</button>
+            <button class="chip" data-q="dolor lumbar">dolor lumbar</button>
+            <button class="chip" data-q="neumonia">neumonia</button>
+          </div>
+        </div>
+
+        <div class="panel" id="panel-texto" role="tabpanel" aria-labelledby="tab-texto" hidden>
+          <label class="sr" for="txt">Texto de la historia clínica</label>
+          <textarea id="txt" rows="5" spellcheck="false" placeholder="Pega aquí un fragmento, por ejemplo:&#10;Dx: HTA (I10X), DM2 no insulinorrequiriente. Antecedente de EPOC. Se solicita HbA1c y TSH."></textarea>
+          <p class="hint">🔒 El texto se analiza solo en tu dispositivo; no se envía a ningún servidor.</p>
+          <div id="txt-view" class="txt-view" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESULTADOS ============ -->
+    <section class="wrap results" id="results" aria-live="polite"></section>
+
+    <!-- ============ FICHA ============ -->
+    <section class="wrap detail" id="detail" hidden></section>
+
+    <!-- ============ CAPÍTULOS ============ -->
+    <section class="wrap block" id="capitulos">
+      <div class="block-head">
+        <h2>Tabla de capítulos</h2>
+        <p>La CIE-10 agrupa los diagnósticos en 22 capítulos, como una tabla periódica de la medicina. La letra del código indica el capítulo.</p>
+      </div>
+      <div class="periodic" id="periodic"></div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA ============ -->
+    <section class="wrap block" id="como">
+      <div class="block-head">
+        <h2>Cómo funciona</h2>
+        <p>Una cadena de tres pasos, de lo técnico a lo cotidiano.</p>
+      </div>
+      <ol class="chain">
+        <li>
+          <span class="chain-n">01</span>
+          <h3>Tu historia clínica</h3>
+          <p>El diagnóstico se registra con un código de la CIE-10, la clasificación de la OMS que usan las EPS e IPS en Colombia.</p>
+        </li>
+        <li class="chain-arrow" aria-hidden="true"><span>buscar</span></li>
+        <li>
+          <span class="chain-n">02</span>
+          <h3>Código y capítulo</h3>
+          <p>Encontramos el nombre oficial, el capítulo y descomponemos los términos técnicos (“no especificada”, “agudo”…).</p>
+        </li>
+        <li class="chain-arrow" aria-hidden="true"><span>explicar</span></li>
+        <li>
+          <span class="chain-n">03</span>
+          <h3>Palabras sencillas</h3>
+          <p>Consultamos MedlinePlus, de la Biblioteca Nacional de Medicina de EE. UU., que publica explicaciones en español revisadas por profesionales.</p>
+        </li>
+      </ol>
+      <div class="privacy">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.4 8 11 4.6-1.6 8-6 8-11V5l-8-3Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="m8.5 12 2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <p><strong>Privado por diseño.</strong> La búsqueda ocurre en tu navegador. Solo al abrir una ficha se envía <em>el código</em> (nunca tu nombre ni tu texto) a MedlinePlus para traer la explicación.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-in">
+      <p><strong>Núcleo</strong> es software libre (licencia MIT). Las explicaciones provienen de <a href="https://medlineplus.gov/spanish/" target="_blank" rel="noopener">MedlinePlus.gov</a> (NLM); MedlinePlus no respalda este sitio.</p>
+      <p class="footer-meta"><span id="db-meta">Cargando base…</span> · Hecho en Bogotá con <span class="atom-mini" aria-label="física nuclear">⚛</span></p>
+    </div>
+  </footer>
+</body>
+</html>
